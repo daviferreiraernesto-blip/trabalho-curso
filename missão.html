@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <a href="index.html">Missão</a><!--link para pagina inicial-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa Missão - Ofiflex</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .mission-section {
+            padding: 3rem 0;
+            background-color: #f9f9f9;
+        }
+        
+        .mission-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 5px solid var(--accent);
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        
+        .value-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        h2:after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background: var(--accent);
+            bottom: -10px;
+            left: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nossa Missão</h1>
+            <p>Conheça o propósito que orienta todos os nossos esforços</p>
+        </div>
+    </header>
+    
+    <section class="mission-section">
+        <div class="container">
+            <div class="mission-card">
+                <h2>Transformando Espaços de Trabalho</h2>
+                <p>Na <strong>Ofiflex</strong>, nossa missão é proporcionar soluções completas em materiais para escritório que tornem os ambientes de trabalho mais eficientes, organizados e inspiradores. Acreditamos que um escritório bem equipado é o alicerce para a produtividade e o sucesso empresarial.</p>
+                
+                <p>Desde 2010, nos dedicamos a oferecer produtos de qualidade que atendam às necessidades de profissionais e empresas, desde pequenos negócios até grandes corporações. Nosso compromisso vai além da venda de produtos - queremos ser parceiros no sucesso de nossos clientes.</p>
+            </div>
+            
+            <div class="mission-card">
+                <h2>Compromisso com a Excelência</h2>
+                <p>Nosso propósito se baseia em três pilares fundamentais:</p>
+                
+                <ol>
+                    <li><strong>Qualidade Inigualável:</strong> Selecionamos cuidadosamente cada item em nosso catálogo para garantir durabilidade e desempenho.</li>
+                    <li><strong>Inovação Constante:</strong> Estamos sempre em busca das melhores soluções para otimizar espaços de trabalho.</li>
+                    <li><strong>Sustentabilidade:</strong> Priorizamos produtos ecológicos e práticas comerciais responsáveis.</li>
+                </ol>
+            </div>
+            
+            <h2>Nossos Valores</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">✓</div>
+                    <h3>Integridade</h3>
+                    <p>Agimos com honestidade e transparência em todas as nossas relações comerciais.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">♥</div>
+                    <h3>Atendimento</h3>
+                    <p>Colocamos o cliente no centro de tudo o que fazemos, com serviço personalizado.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">♻</div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Compromisso com o meio ambiente em toda nossa cadeia produtiva.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <h3>Inovação</h3>
+                    <p>Buscamos constantemente novas soluções para os desafios do ambiente de trabalho.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container" style="padding: 2rem 0;">
+        <h2>Nosso Impacto</h2>
+        <p><strong>Ofiflex</strong> já equipou mais de 5.000 empresas em todo o país, contribuindo para que profissionais tenham acesso aos melhores materiais para desempenhar seu trabalho com excelência. Acreditamos que quando fornecemos os recursos adequados, estamos ajudando a construir negócios mais prósperos e ambientes de trabalho mais satisfatórios.</p>
+        
+        <p style="margin-top: 1rem; font-style: italic;">"Equipar escritórios não é nosso trabalho - é nossa paixão. A cada produto que fornecemos, estamos ajudando a criar espaços onde ideias florescem e negócios prosperam."</p>
+        <p style="text-align: right; font-weight: bold;">— Equipe Ofiflex</p>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Ofiflex - Transformando ambientes de trabalho desde 2010</p>
+        </div>
+    </footer>
+</body>
+</html>

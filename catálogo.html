@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <a href="index.html">catálogo</a><!--link para pagina inicial-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos de Escritório</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-title {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .product-description {
+            color: #555;
+        }
+        .product-price {
+            font-size: 1.2em;
+            color: #007bff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Produtos de Escritório</h1>
+    </header>
+    <div class="container">
+        <div class="product-card">
+            <img src="images1.jpeg" alt="Cadeira Ergonômica" class="product-image">
+            <h2 class="product-title">Cadeira Ergonômica</h2>
+            <p class="product-description">Cadeira ergonômica com ajuste de altura e apoio lombar, ideal para longas horas de trabalho.</p>
+            <p class="product-price">R$ 499,00</p>
+        </div>
+        <div class="product-card">
+            <img src="images3.jpeg" alt="Mesa de Escritório" class="product-image">
+            <h2 class="product-title">Mesa de Escritório</h2>
+            <p class="product-description">Mesa de escritório em madeira com design moderno e amplo espaço para trabalho.</p>
+            <p class="product-price">R$ 799,00</p>
+        </div>
+        <div class="product-card">
+            <img src="images4.jpeg" alt="Organizador de Mesa" class="product-image">
+            <h2 class="product-title">Organizador de Mesa</h2>
+            <p class="product-description">Organizador de mesa em acrílico, perfeito para manter seus materiais de escritório organizados.</p>
+            <p class="product-price">R$ 89,00</p>
+        </div>
+    </div>
+</body>
+</html>

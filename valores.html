@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <a href="index.html">valores</a><!--link para pagina inicial-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores Institucionais | Escritório Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        }
+        
+        .value-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid transparent;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .mission-icon {
+            background-color: rgba(37, 99, 235, 0.1);
+        }
+        
+        .vision-icon {
+            background-color: rgba(16, 185, 129, 0.1);
+        }
+        
+        .values-icon {
+            background-color: rgba(245, 158, 11, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Cabeçalho -->
+    <header class="hero-gradient text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl font-bold mb-4">Nossos Valores</h1>
+                    <p class="text-xl opacity-90 mb-6">Os princípios que guiam o nosso trabalho e relacionamento com clientes</p>
+                    <a href="#valores" class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full inline-block hover:bg-gray-100 transition">
+                        Conheça mais ↓
+                    </a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/800x500" alt="Equipe de profissionais sorridentes em um escritório moderno com materiais organizados" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Missão, Visão e Valores -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Missão -->
+                <div class="value-card mission-icon bg-white rounded-lg p-8 border-t-blue-500">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Missão</h3>
+                    <p class="text-gray-600">Fornecer soluções completas em materiais de escritório que aumentem a produtividade e o bem-estar dos profissionais, através de produtos de qualidade e atendimento excepcional.</p>
+                </div>
+                
+                <!-- Visão -->
+                <div class="value-card vision-icon bg-white rounded-lg p-8 border-t-green-500">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Visão</h3>
+                    <p class="text-gray-600">Ser reconhecida como referência no segmento de materiais para escritório, sendo a primeira opção de empresas que valorizam qualidade, inovação e sustentabilidade.</p>
+                </div>
+                
+                <!-- Valores -->
+                <div class="value-card values-icon bg-white rounded-lg p-8 border-t-yellow-500">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Valores</h3>
+                    <ul class="text-gray-600 list-disc pl-5">
+                        <li class="mb-1">Compromisso com a satisfação do cliente</li>
+                        <li class="mb-1">Qualidade inigualável nos produtos</li>
+                        <li class="mb-1">Sustentabilidade ambiental</li>
+                        <li class="mb-1">Inovação constante</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Valores em Destaque -->
+    <section id="valores" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">O Que Nos Torna Diferentes</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Valor 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Qualidade Garantida</h3>
+                    <p class="text-gray-600">Todos os produtos passam por rigorosos testes de qualidade para garantir durabilidade e desempenho.</p>
+                </div>
+                
+                <!-- Valor 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-green-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Atendimento Personalizado</h3>
+                    <p class="text-gray-600">Consultores especializados para entender suas necessidades e oferecer as melhores soluções.</p>
+                </div>
+                
+                <!-- Valor 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-yellow-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Entrega Rápida</h3>
+                    <p class="text-gray-600">Sistema logístico eficiente que garante entrega ágil em todo o território nacional.</p>
+                </div>
+                
+                <!-- Valor 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-purple-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Variedade de Produtos</h3>
+                    <p class="text-gray-600">Mais de 5.000 itens disponíveis para atender todas as necessidades do seu escritório.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compromisso com Sustentabilidade -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h2 class="text-3xl font-bold mb-6">Compromisso com o Meio Ambiente</h2>
+                    <p class="text-gray-600 mb-6">Nosso compromisso com a sustentabilidade se reflete em toda a cadeia produtiva, desde a seleção de fornecedores até as embalagens ecologicamente corretas.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mt-1 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Produtos com certificação FSC de manejo florestal sustentável</p>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mt-1 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Programa de reciclagem de materiais de escritório</p>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 mt-1 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Redução de plástico nas embalagens em 75% desde 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/800x500" alt="Escritório sustentável com plantas, luz natural e materiais reciclados" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Escritório Premium</h3>
+                    <p class="text-gray-400">Soluções completas em materiais de escritório desde 2005.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Produtos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <address class="not-italic text-gray-400">
+                        Rua dos Materiais, 123<br>
+                        São Paulo/SP<br>
+                        (11) 9999-9999<br>
+                        contato@escritoriopremium.com.br
+                    </address>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+                    <p class="text-gray-400 mb-4">Receba nossas novidades e promoções</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Seu e-mail" class="py-2 px-4 rounded-l text-gray-800 w-full">
+                        <button class="bg-blue-600 text-white py-2 px-4 rounded-r hover:bg-blue-700 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Escritório Premium. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Efeito smooth scroll para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
